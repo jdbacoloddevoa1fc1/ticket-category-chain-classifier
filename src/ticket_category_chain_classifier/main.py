@@ -19,12 +19,12 @@ token_provider = get_bearer_token_provider(
 )
 
 MS_FOUNDRY_ENDPOINT="https://jdbacolod-devo-6315-resource.services.ai.azure.com/openai/v1"
-api_key="..."
+some_string=""
 
 foundry_gpt_mini = ChatOpenAI(
     model="gpt-5-mini",
     base_url=MS_FOUNDRY_ENDPOINT,
-    api_key=api_key,
+    api_key=some_string,
     temperature=0.0
 )
 
